@@ -1,0 +1,41 @@
+# Environment
+.env
+.env.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+.uv/
+
+# Runtime data
+accounts.db
+memory/*.db
+!memory/.gitkeep
+
+# Sandbox experiments
+sandbox/*
+!sandbox/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# IDE & OS
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
